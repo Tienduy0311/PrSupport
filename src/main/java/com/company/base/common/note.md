@@ -1,0 +1,1 @@
+Package chứa các class định nghĩa như enum, interface, class dùng chung và đơn giản

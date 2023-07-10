@@ -1,0 +1,1 @@
+(Sử dụng hoặc không sử dụng đều được)Chứa các class được sử dụng để truyền dữ liệu giữa các thành phần như giữa lớp Controller và Service. Tách biệt với entity

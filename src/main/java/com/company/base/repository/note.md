@@ -1,0 +1,1 @@
+Thư mục chứa các interface hoặc các class tương tác với Database

@@ -1,0 +1,1 @@
+Thư mục chứa các class Model hay entity, đại diện cho các đối tượng mapping với table trong database
