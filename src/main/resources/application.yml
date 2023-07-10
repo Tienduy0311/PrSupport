@@ -1,0 +1,30 @@
+# Server
+server:
+  port: 8091
+  servlet:
+    context-path: /base
+
+# Database
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    defer-datasource-initialization: true
+
+# Directory path
+directory:
+    blanc: ../blanc-source
+    sirius: ../secom-libertychrome-source
+
+### Cấu hình hibernate: 
+# Tự động tạo bảng cho hibernate;
+#spring.jpa.hibernate.ddl-auto=none
+# Hiển thị truy vấn SQL(debug)
+#spring.jpa.show-sql=true

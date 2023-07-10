@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+<!--    <head th:fragment="common::head">-->
+
+<!--    </head>-->
+    <title>Home page</title>
+</head>
+<body>
+    <h1>Home page</h1>
+
+    <form action="" method="post" th:object="${branch}">
+        <div>
+            <label>branch-source</label>
+            <input type="text" placeholder="" value="IB-123" th:field="*{branchSource}" required>
+        </div>
+        <div>
+            <label>branch-target</label>
+            <input type="text" placeholder="" value="IB-789" th:field="*{branchTarget}" required>
+        </div>
+        <div>
+            <label>source-dir</label>
+            <select class="dropdown" th:field="*{sourceDir}">
+                <option value="1" selected>sirius</option>
+                <option value="2">blanc</option>
+            </select>
+        </div>
+        <button type="submit"> Convert Branch </button>
+    </form>
+</body>
+</html>
